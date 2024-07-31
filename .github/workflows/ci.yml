@@ -5,7 +5,7 @@ name: Test
 
 on:
   push:
-    branches: [master]
+    branches: [master,6-1-stable]
   # Triggers the workflow on pull request events.
   pull_request:
     types: [opened, reopened, synchronize]
